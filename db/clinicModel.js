@@ -5,7 +5,7 @@ const clinicScheme = new mongoose.Schema({
     fullAddress: ({ type: String, required: true }),
     zipCode: ({ type: String, required: true }),
     acceptMedicaid: ({ type: Boolean, default: false }),
-    affordabilitySuppot: ({ type: Boolean, default: false }),
+    affordabilitySupport: ({ type: Boolean, default: false }),
     websiteURL: ({ type: String }),
     dataSource: ({ type: String }),
     county: ({ type: String }),
